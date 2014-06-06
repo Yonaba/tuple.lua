@@ -5,9 +5,9 @@ env:
     - PLATFORM=linux
     - LUAROCKS_VER=2.2.0beta1
   matrix:
-    - LUA=lua5.1 LUA_SFX=
-    - LUA=lua5.2 LUA_SFX=
-    - LUA=luajit LUA_SFX=jit
+    - LUA=lua5.1
+    - LUA=lua5.2
+    - LUA=luajit
 
 branches:
   only:
@@ -21,7 +21,7 @@ before_install:
 script: "tsc -f specs/*"
   
 after_success:
-  - luacov-coveralls -e telescope
+  - luacov-coveralls -c specs/.luacov
 
 notifications:
   email:
