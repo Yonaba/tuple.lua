@@ -18,7 +18,7 @@ before_install:
   - sudo luarocks install telescope 0.6.0 --server=http://rocks.moonscript.org
   - sudo luarocks install luacov-coveralls --server=http://rocks.moonscript.org/dev
 
-script: "tsc -f spec/*"
+script: "tsc -f specs/*"
   
 after_success:
   - luacov-coveralls -e telescope

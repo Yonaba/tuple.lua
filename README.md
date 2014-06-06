@@ -2,7 +2,8 @@ tuple
 =========
 
 [![Build Status](https://travis-ci.org/Yonaba/tuple.lua.png)](https://travis-ci.org/Yonaba/tuple.lua)
-
+[![Coverage Status](https://coveralls.io/repos/Yonaba/tuple.lua/badge.png?branch=master)](https://coveralls.io/r/Yonaba/tuple.lua?branch=master)
+[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
 
 ###Tuples ?
 
