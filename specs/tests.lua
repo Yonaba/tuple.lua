@@ -1,3 +1,4 @@
+require 'luacov'
 local tuple = require 'tuple'
   
 context('Creating tuples', function()
