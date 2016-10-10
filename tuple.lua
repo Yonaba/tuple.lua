@@ -1,10 +1,10 @@
 -- =========================================
 -- tuple, A minimal tuple class for Lua
 -- Copyright (c) 2013 Roland Y., MIT License
--- v0.1.0 - compatible Lua 5.1, 5.2
+-- v0.2.0 - compatible Lua 5.1, 5.2, 5.3
 -- =========================================
 
-local unpack = unpack
+local unpack = unpack or table.unpack
 local setmetatable = setmetatable
 local ipairs = ipairs
 local tostring = tostring
